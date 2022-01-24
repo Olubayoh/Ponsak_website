@@ -1,0 +1,120 @@
+.section_6{
+            
+    max-width: 75%;
+    margin: auto;
+    margin-top:5%;
+}
+.contact{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    column-gap: 10px;
+    
+row-gap:10px;
+   
+    
+   
+}
+
+input[type="text"],input[type="email"]{
+    padding:10px;
+    box-sizing: border-box;
+   
+}
+.comment{
+    grid-column-start:1;
+    grid-column-end:3;
+   height: 200px;
+   
+
+  
+}
+.user
+{
+    height: fit-content;
+    clear: both;
+}
+
+.contact_us{
+    font-size: 4.5rem;
+    text-align: center;
+    padding-bottom: 40px;
+    font-weight: 900;
+}
+.contact_details{
+    padding: 10px;
+margin-left: 70px;   
+}
+.contact_det{
+    display: grid;
+   grid-template-columns:repeat(auto-fill, minmax(500px, 1fr));
+}
+
+textarea{
+    height: 200px;
+    padding: 10px;
+}
+.submit{
+   height: 35px;
+   width: 50%;
+   background-color: crimson;
+   color: white;
+   border: none;
+}
+
+/*media query for text form*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)  {
+   .contact{
+       display: block;
+       text-align: left;
+       max-width: 80%;
+      
+   }
+   .contact_details{
+    margin-top: 10%;
+    margin-left: 0%;
+    max-width: 80%;
+   
+  }
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width:768px){
+    .contact{
+        display: block;
+        text-align: left;
+        max-width: fit-content;
+    }
+
+    .contact_details{
+      margin-top: 10%;
+      margin-left: 0%;
+      max-width: fit-content;
+     
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px ) {
+   
+    .contact_details{
+        margin-top: 10%;
+        margin-left: 0%;
+        max-width: fit-content;
+       
+      }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}

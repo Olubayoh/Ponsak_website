@@ -1,0 +1,51 @@
+*{
+    font-family: poppins;
+}
+
+
+.hero_header{
+    background-image: url("hero.jpg") ;
+    background-size: 100%  70%;
+background-repeat: no-repeat;
+border: 1px solid red;
+
+    
+}
+ul li{
+    padding: 10px;
+    font-weight: bold;
+    
+}
+.list{
+    display:flex;
+    color: white;
+    font-weight: 500;
+    font-family: poppins;
+   
+}
+
+.hero_text{
+  
+    margin-top: -15%;
+}
+.major_body{
+    border: 1px solid red;
+    margin-top: -10%;
+}
+
+.ser_head{
+    text-align: center;
+}
+
+.service_details{
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));;
+    grid-gap: 25px;
+    text-align: center;
+   
+    margin: auto;
+}
+
+
+
+
